@@ -22,7 +22,8 @@ console.log(typeof(bigNumber));
     
 
 
-//Non-Primitive(refrence type)
+//Non-Primitive(refrence type)  in this we got reference of original value 
+// the change swe do will apply to original value
 //array, function, objects
 
 const heros=["quaid", "allama", "sirsyed"];
@@ -42,3 +43,29 @@ console.log(typeof(myFunction));
 console.log(typeof(heros));
 
 console.log(typeof(myObj));
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//memory types
+//stack(primitive data types) and heap(non primitive data types)
+console.log("==============stack=============");
+let userName="talal" //stored in stack
+let userAge=23       //stored in stack
+let user2=userName //copy of userName is stored in user2
+user2="ali"
+
+console.log(userName);
+console.log(user2);
+
+
+//HEAP------------------------
+console.log("==============heap=============");
+let user={
+    name:"talal",
+    age:23
+} //stored in heap
+let userB=user //reference of user is stored in userB
+userB.name="ali"
+
+console.log(user.name);
+console.log(userB.name);
