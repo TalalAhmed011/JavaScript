@@ -4,7 +4,7 @@
 //Primitive data tyeps
 //7 types : call by memory jb b hmm in ko access krty hyn to call by value hota hy 
 //inki copy hmein di jati hy jismein changing hoti hyn
-//we have access to copy and all changes are mase in copy instead of original
+//we have access to copy and all changes are made in copy instead of original
 //string, boolean, number ,  null, undefined, symbol, BigInt\
 
 //declaring variable
@@ -30,8 +30,8 @@ const heros=["quaid", "allama", "sirsyed"];
 let myObj={
     name:"tallal",
     class:"cs",
-    age:23                          //the think son curly braces are obj and inside an onj 
-                                    // there is anything arrays , obj , func
+    age:23                          //the things in curly braces are obj and inside an obj 
+                                    // there can be anything arrays , obj , func
 }
 
 //function stored in variable

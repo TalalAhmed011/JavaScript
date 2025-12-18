@@ -1,10 +1,10 @@
 // const score=100;
 // console.log( score); 
-// const num=new Number(228.97);
+// const num=new Number(228.9799);
 // console.log(num);
 // console.log(typeof(num));
 // console.log(num.toString());
-// console.log(num.toFixed(2));
+// console.log(num.toFixed(3));
 // console.log(num.valueOf());
 // console.log(num.toPrecision(3))
 
@@ -12,7 +12,7 @@
 // console.log(num1.toLocaleString());
 // console.log("===================================");
 
-// const num2=2.5;
+// const num2=3.1;
 // console.log(Math.round(num2));
 // console.log(Math.floor(num2));
 // console.log(Math.ceil(num2));
@@ -48,7 +48,7 @@
 // console.log(date.getSeconds());
 // console.log(date.getMilliseconds());
 // console.log(date.getTime());
-console.log("=============================");
+// console.log("=============================");
 // console.log(Date.now());  //the dater from 1-jan-1970 to now in milliseconds
 
 let myCreatedDate = new Date("2025-12-17");
